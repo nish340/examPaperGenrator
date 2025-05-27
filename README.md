@@ -30,8 +30,7 @@ A modern web application for educators to create, manage, and generate customize
 
 ```bash
 # Clone the repository
-git clone <repository-url>
-
+git clone https://github.com/nish340/examPaperGenrator.git
 # Navigate to the project directory
 cd examPaper
 
