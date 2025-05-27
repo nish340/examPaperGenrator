@@ -1,73 +1,75 @@
-# Welcome to your Lovable project
+# ExamPaper - Exam Generation Platform
 
-## Project info
+A modern web application for educators to create, manage, and generate customized exam papers with an intuitive user interface.
 
-**URL**: https://lovable.dev/projects/fa90a7bc-2613-49f2-bc4b-f9e1b311371f
+## Features
 
-## How can I edit this code?
+- **Question Bank Management**: Create and organize questions by subject, topic, and difficulty
+- **Custom Paper Generation**: Generate exam papers based on specific criteria and requirements
+- **Template System**: Save and reuse paper templates for consistent formatting
+- **Preview & Export**: Preview papers before generation and export in multiple formats
+- **Responsive Design**: Works seamlessly across desktop and tablet devices
 
-There are several ways of editing your application.
+## Pages
 
-**Use Lovable**
+1. **Home**: Overview of the platform features and quick access to paper generation
+2. **Question Bank**: Interface for managing and organizing exam questions
+3. **Generate Paper**: Wizard for creating customized exam papers
+4. **Papers**: Library of previously generated papers
+5. **Not Found**: Custom 404 page
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/fa90a7bc-2613-49f2-bc4b-f9e1b311371f) and start prompting.
+## Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+- React 18+
+- TypeScript
+- Tailwind CSS
+- Shadcn UI Components
+- Vite for development and building
 
-**Use your preferred IDE**
+## Getting Started
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+```bash
+# Clone the repository
+git clone <repository-url>
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+# Navigate to the project directory
+cd examPaper
 
-Follow these steps:
+# Install dependencies
+npm install
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## Project Structure
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- `/src/components`: UI components including navigation and form elements
+- `/src/pages`: Main application pages
+- `/src/hooks`: Custom React hooks
+- `/src/lib`: Utility functions and helpers
 
-**Use GitHub Codespaces**
+## Deployment
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Build the application for production:
 
-## What technologies are used for this project?
+```bash
+npm run build
+```
 
-This project is built with:
+The build output will be in the `dist` directory, ready to be deployed to your preferred hosting service.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+## Future Enhancements
 
-## How can I deploy this project?
+- Question import/export functionality
+- AI-assisted question generation
+- Collaborative editing features
+- Student assessment integration
 
-Simply open [Lovable](https://lovable.dev/projects/fa90a7bc-2613-49f2-bc4b-f9e1b311371f) and click on Share -> Publish.
+## Author
 
-## Can I connect a custom domain to my Lovable project?
+Nishchay Sharma
 
-Yes, you can!
+## License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+MIT
