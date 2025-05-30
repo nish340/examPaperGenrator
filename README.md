@@ -2,6 +2,9 @@
 
 A modern web application for educators to create, manage, and generate customized exam papers with an intuitive user interface.
 
+## Note ! 
+This repository contains only partial code. The complete project, including the backend, admin portal, and API integrations, is private. For access, please contact me via http://nishchay.online.
+
 ## Features
 
 - **Question Bank Management**: Create and organize questions by subject, topic, and difficulty
